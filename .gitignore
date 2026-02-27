@@ -33,3 +33,7 @@ local
 
 # vercel
 .vercel
+
+# env
+.env.local
+.env.local.example
