@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Nhôm Kính Gia Phát',
-  title: 'Nhôm Kính Gia Phát – Thi Công Nhôm Kính Xingfa Tại TP.HCM',
+  site_name: 'Nhôm Kính Template',
+  title: 'Nhôm Kính Template – Thi Công Nhôm Kính Xingfa Tại Hà Nội',
   description:
-    'Chuyên thi công cửa nhôm kính Xingfa, vách kính cường lực, lan can kính, cửa kính tự động tại TP.HCM. Giá tốt – Thi công nhanh – Bảo hành 5 năm.',
+    'Chuyên thi công cửa nhôm kính Xingfa, vách kính cường lực, lan can kính, cửa kính tự động tại Hà Nội. Giá tốt – Thi công nhanh – Bảo hành 5 năm.',
   locale: 'vi',
 };

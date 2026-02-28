@@ -13,7 +13,7 @@ const WhyUs = () => {
       statLabel: 'Công trình',
       title: 'Hàng trăm công trình thực tế',
       description:
-        'Đã hoàn thành hơn 500 công trình lớn nhỏ, đa dạng loại hình từ nhà ở đến thương mại trên toàn TP.HCM.',
+        'Đã hoàn thành hơn 500 công trình lớn nhỏ, đa dạng loại hình từ nhà ở đến thương mại trên toàn Hà Nội.',
       icon: '🏗️',
     },
     {
@@ -59,7 +59,7 @@ const WhyUs = () => {
             Tại Sao Chọn Chúng Tôi
           </span>
           <h2 className="mb-4 text-3xl font-bold text-gray-900 sm:text-4xl">
-            6 Lý Do Khách Hàng Tin Tưởng Gia Phát
+            6 Lý Do Khách Hàng Tin Tưởng Template
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-gray-600">
             Không phải lời nói suông – đây là những cam kết có thể kiểm chứng

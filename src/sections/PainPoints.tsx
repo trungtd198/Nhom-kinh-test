@@ -65,7 +65,7 @@ const PainPoints = () => (
         <p className="text-lg text-gray-500">
           👇 Đó là lý do{' '}
           <span className="font-semibold text-primary-600">
-            Nhôm Kính Gia Phát
+            Nhôm Kính Template
           </span>{' '}
           ra đời – để bạn không còn phải lo lắng.
         </p>

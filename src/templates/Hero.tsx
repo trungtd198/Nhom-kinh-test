@@ -29,10 +29,10 @@ const Hero = () => (
           </div>
           <div>
             <div className="text-lg font-bold leading-tight text-white">
-              Nhôm Kính Gia Phát
+              Nhôm Kính Template
             </div>
             <div className="text-xs text-primary-400">
-              Xingfa Chính Hãng – TP.HCM
+              Xingfa Chính Hãng – Hà Nội
             </div>
           </div>
         </div>
@@ -67,14 +67,14 @@ const Hero = () => (
 
         {/* Hotline */}
         <a
-          href="tel:0901234567"
+          href="tel:0987654321"
           className="flex items-center space-x-2 rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow-lg transition-colors hover:bg-red-500"
           id="nav-hotline"
         >
           <svg className="size-4" fill="currentColor" viewBox="0 0 20 20">
             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
           </svg>
-          <span className="hidden sm:inline">0901.234.567</span>
+          <span className="hidden sm:inline">0987.654.321</span>
           <span className="sm:hidden">Gọi Ngay</span>
         </a>
       </div>
@@ -88,7 +88,7 @@ const Hero = () => (
           <div className="mb-8 inline-flex items-center space-x-2 rounded-full border border-primary-700 bg-primary-900/50 px-4 py-1.5">
             <span className="size-2 animate-pulse-slow rounded-full bg-green-400" />
             <span className="text-sm font-medium text-primary-300">
-              ✓ Đại lý Xingfa chính hãng – Đang nhận đơn tại TP.HCM
+              ✓ Đại lý Xingfa chính hãng – Đang nhận đơn tại Hà Nội
             </span>
           </div>
 
@@ -99,7 +99,7 @@ const Hero = () => (
               Nhôm Kính Xingfa
             </span>
             <br />
-            Chuyên Nghiệp Tại TP.HCM
+            Chuyên Nghiệp Tại Hà Nội
           </h1>
 
           {/* Sub-headline */}
@@ -113,14 +113,14 @@ const Hero = () => (
           {/* CTA Buttons */}
           <div className="mb-14 flex flex-col gap-4 sm:flex-row">
             <a
-              href="tel:0901234567"
+              href="tel:0987654321"
               id="hero-cta-call"
               className="flex items-center justify-center space-x-2 rounded-xl bg-red-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition-all hover:-translate-y-0.5 hover:bg-red-500 hover:shadow-red-500/30 active:bg-red-700"
             >
               <svg className="size-5" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              <span>Gọi Ngay: 0901.234.567</span>
+              <span>Gọi Ngay: 0987.654.321</span>
             </a>
             <a
               href="#contact"

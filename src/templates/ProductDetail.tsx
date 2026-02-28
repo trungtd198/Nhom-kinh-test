@@ -1,6 +1,8 @@
 import Link from 'next/link';
 
 import { Meta } from '../layout/Meta';
+import { BackToTop } from '../navigation/BackToTop';
+import { FloatingCTA } from '../sections/FloatingCTA';
 import { AppConfig } from '../utils/AppConfig';
 import type { Product } from '../utils/Data';
 import { products } from '../utils/Data';
@@ -79,13 +81,13 @@ const ProductDetail = (props: IProductDetailProps) => {
           </div>
 
           <a
-            href="tel:0901234567"
+            href="tel:0987654321"
             className="flex items-center space-x-2 rounded-lg bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow-lg transition-colors hover:bg-red-500"
           >
             <svg className="size-4" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
             </svg>
-            <span className="hidden sm:inline">0901.234.567</span>
+            <span className="hidden sm:inline">0987.654.321</span>
             <span className="sm:hidden">Gọi Ngay</span>
           </a>
         </div>
@@ -202,16 +204,16 @@ const ProductDetail = (props: IProductDetailProps) => {
               Bạn Cần Tư Vấn & Báo Giá Cho {product.title}?
             </h2>
             <p className="mb-10 text-lg text-gray-600">
-              Liên hệ ngay với đội ngũ kỹ thuật của Gia Phát để được khảo sát
+              Liên hệ ngay với đội ngũ kỹ thuật của Template để được khảo sát
               trực tiếp và nhận phương án thi công tối ưu nhất cho công trình
               của bạn.
             </p>
             <div className="flex flex-col justify-center gap-4 sm:flex-row">
               <a
-                href="tel:0901234567"
+                href="tel:0987654321"
                 className="flex items-center justify-center space-x-2 rounded-xl bg-red-600 px-8 py-4 text-lg font-bold text-white shadow-lg transition-all hover:bg-red-500"
               >
-                <span>Call: 0901.234.567</span>
+                <span>Call: 0987.654.321</span>
               </a>
               <Link
                 href="/#contact"
@@ -225,6 +227,12 @@ const ProductDetail = (props: IProductDetailProps) => {
       </main>
 
       <Footer />
+
+      {/* Floating CTA – mobile only */}
+      <FloatingCTA />
+
+      {/* Back to Top button */}
+      <BackToTop />
     </div>
   );
 };

@@ -113,7 +113,7 @@ export const products: Product[] = [
     description:
       'Thiết kế và thi công trọn gói mặt dựng kính, vách ngăn, cửa ra vào cho showroom, văn phòng. Tư vấn miễn phí, giao chìa khóa trao tay.',
     detailedDescription:
-      'Chúng tôi cung cấp giải pháp tổng thể về nhôm kính cho các dự án thương mại. Từ khâu tư vấn thiết kế đến thi công hoàn thiện, Gia Phát cam kết mang lại không gian kinh doanh chuyên nghiệp và ấn tượng.',
+      'Chúng tôi cung cấp giải pháp tổng thể về nhôm kính cho các dự án thương mại. Từ khâu tư vấn thiết kế đến thi công hoàn thiện, Template cam kết mang lại không gian kinh doanh chuyên nghiệp và ấn tượng.',
     tags: [
       'Mặt dựng kính',
       'Vách ngăn văn phòng',
@@ -139,7 +139,7 @@ export const products: Product[] = [
     description:
       'Giải pháp nhôm kính toàn bộ cho nhà phố, biệt thự, căn hộ. Từ cửa chính, cửa sổ, ban công đến vách kính phòng tắm.',
     detailedDescription:
-      'Dành cho các gia chủ đang tìm kiếm sự hoàn mỹ cho tổ ấm của mình. Gia Phát cung cấp dịch vụ thi công trọn gói tất cả các hạng mục nhôm kính trong ngôi nhà, đảm bảo sự đồng bộ và thẩm mỹ cao nhất.',
+      'Dành cho các gia chủ đang tìm kiếm sự hoàn mỹ cho tổ ấm của mình. Template cung cấp dịch vụ thi công trọn gói tất cả các hạng mục nhôm kính trong ngôi nhà, đảm bảo sự đồng bộ và thẩm mỹ cao nhất.',
     tags: ['Nhà phố', 'Biệt thự', 'Căn hộ', 'Vách phòng tắm kính'],
     gradient: 'from-emerald-900 to-emerald-800',
     accent: 'border-emerald-600',

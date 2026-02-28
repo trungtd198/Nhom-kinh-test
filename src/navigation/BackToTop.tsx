@@ -29,7 +29,7 @@ const BackToTop = () => {
   }, []);
 
   return (
-    <div className="fixed bottom-36 right-6 z-50 md:bottom-8">
+    <div className="fixed bottom-36 right-6 z-50">
       {isVisible && (
         <button
           type="button"

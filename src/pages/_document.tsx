@@ -8,22 +8,22 @@ class MyDocument extends Document {
     const schemaData = {
       '@context': 'https://schema.org',
       '@type': 'LocalBusiness',
-      name: 'Nhôm Kính Gia Phát',
+      name: 'Nhôm Kính Template',
       description:
-        'Chuyên thi công cửa nhôm kính Xingfa, vách kính cường lực, lan can kính, cửa kính tự động tại TP.HCM.',
-      url: 'https://nhomkinhgiaphat.vn',
-      telephone: '0901234567',
+        'Chuyên thi công cửa nhôm kính Xingfa, vách kính cường lực, lan can kính, cửa kính tự động tại Hà Nội.',
+      url: 'https://nhomkinhtemplate.vn',
+      telephone: '0987654321',
       priceRange: '$$',
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Thành phố Hồ Chí Minh',
-        addressRegion: 'TP.HCM',
+        addressLocality: 'Hà Nội',
+        addressRegion: 'Hà Nội',
         addressCountry: 'VN',
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: '10.7769',
-        longitude: '106.7009',
+        latitude: '21.0285',
+        longitude: '105.8542',
       },
       openingHoursSpecification: [
         {
@@ -41,7 +41,7 @@ class MyDocument extends Document {
           closes: '18:00',
         },
       ],
-      sameAs: ['https://www.facebook.com/nhomkinhgiaphat'],
+      sameAs: ['https://www.facebook.com/nhomkinhtemplate'],
     };
 
     return (

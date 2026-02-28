@@ -2,16 +2,16 @@ const Testimonials = () => {
   const reviews = [
     {
       name: 'Anh Minh Tuấn',
-      location: 'Quận Bình Thạnh, TP.HCM',
+      location: 'Hà Nội',
       project: 'Cửa nhôm Xingfa toàn bộ nhà phố 4 tầng',
       rating: 5,
-      text: 'Mình đã liên hệ 3 nơi trước khi chọn Gia Phát. So sánh giá thì tương đương nhưng Gia Phát báo giá chi tiết nhất, rõ ràng từng hạng mục. Thi công xong trong 4 ngày, thợ làm sạch sẽ gọn gàng. Cửa dùng 1 năm nay không có vấn đề gì. Sẽ giới thiệu cho người thân.',
+      text: 'Mình đã liên hệ 3 nơi trước khi chọn Template. So sánh giá thì tương đương nhưng Template báo giá chi tiết nhất, rõ ràng từng hạng mục. Thi công xong trong 4 ngày, thợ làm sạch sẽ gọn gàng. Cửa dùng 1 năm nay không có vấn đề gì. Sẽ giới thiệu cho người thân.',
       avatar: 'MT',
       avatarBg: 'bg-blue-600',
     },
     {
       name: 'Chị Hương Lan',
-      location: 'Quận 3, TP.HCM',
+      location: 'Hà Nội',
       project: 'Vách kính văn phòng + mặt dựng showroom mỹ phẩm',
       rating: 5,
       text: 'Showroom của mình cần hình ảnh sang trọng, họ tư vấn giải pháp mặt dựng kính rất chuyên nghiệp. Từ thiết kế đến thi công chỉ 10 ngày, kịp ngày khai trương. Khách hàng vào showroom ai cũng khen đẹp. Cực kỳ hài lòng!',
@@ -20,10 +20,10 @@ const Testimonials = () => {
     },
     {
       name: 'Anh Phước Thịnh',
-      location: 'Quận Gò Vấp, TP.HCM',
+      location: 'Hà Nội',
       project: 'Lan can kính cầu thang & ban công biệt thự',
       rating: 5,
-      text: 'Biệt thự mình cần lan can kính frameless nhìn thoáng và sang. Gia Phát tư vấn kỹ, thậm chí vẽ mẫu 3D cho xem trước. Chất lượng kính tốt, khe hở đều, không có vết xước. Bảo hành 5 năm là điểm cộng rất lớn so với các nơi khác.',
+      text: 'Biệt thự mình cần lan can kính frameless nhìn thoáng và sang. Template tư vấn kỹ, thậm chí vẽ mẫu 3D cho xem trước. Chất lượng kính tốt, khe hở đều, không có vết xước. Bảo hành 5 năm là điểm cộng rất lớn so với các nơi khác.',
       avatar: 'PT',
       avatarBg: 'bg-emerald-600',
     },

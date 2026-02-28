@@ -1,6 +1,5 @@
 import { Meta } from '../layout/Meta';
 import { BackToTop } from '../navigation/BackToTop';
-import { StickyPhone } from '../navigation/StickyPhone';
 import { ContactForm } from '../sections/ContactForm';
 import { CTABottom } from '../sections/CTABottom';
 import { FloatingCTA } from '../sections/FloatingCTA';
@@ -61,9 +60,6 @@ const Base = () => (
 
     {/* Back to Top button */}
     <BackToTop />
-
-    {/* Sticky Phone for Mobile */}
-    <StickyPhone />
   </div>
 );
 

@@ -1,46 +1,54 @@
+import Link from 'next/link';
+
 const Projects = () => {
   const projects = [
     {
       label: 'Cửa nhôm Xingfa',
       category: 'Nhà ở',
-      location: 'Q.Bình Thạnh, TP.HCM',
+      location: 'Hà Nội',
       bg: 'from-slate-700 to-slate-900',
       accent: '#60a5fa',
+      slug: 'cua-nhom-kinh-xingfa',
     },
     {
       label: 'Vách kính văn phòng',
       category: 'Văn phòng',
-      location: 'Q.1, TP.HCM',
+      location: 'Hà Nội',
       bg: 'from-blue-800 to-slate-900',
       accent: '#a78bfa',
+      slug: 'vach-kinh-cuong-luc',
     },
     {
       label: 'Mặt dựng showroom',
       category: 'Showroom',
-      location: 'Q.Nô Bà Trang Khoa, TP.HCM',
+      location: 'Hà Nội',
       bg: 'from-cyan-800 to-slate-900',
       accent: '#34d399',
+      slug: 'thi-cong-showroom-van-phong',
     },
     {
       label: 'Lan can kính cầu thang',
       category: 'Nhà ở',
-      location: 'Q.Gò Vấp, TP.HCM',
+      location: 'Hà Nội',
       bg: 'from-violet-800 to-slate-900',
       accent: '#f472b6',
+      slug: 'lan-can-kinh-cuong-luc',
     },
     {
       label: 'Cửa kính tự động',
       category: 'Thương mại',
-      location: 'Q.3, TP.HCM',
+      location: 'Hà Nội',
       bg: 'from-emerald-800 to-slate-900',
       accent: '#fbbf24',
+      slug: 'cua-kinh-lua-tu-dong',
     },
     {
       label: 'Vách kính phòng tắm',
       category: 'Nhà ở',
-      location: 'Q.Tân Bình, TP.HCM',
+      location: 'Hà Nội',
       bg: 'from-indigo-800 to-slate-900',
       accent: '#fb7185',
+      slug: 'thi-cong-nha-o-tron-goi',
     },
   ];
 
@@ -57,16 +65,17 @@ const Projects = () => {
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-silver-400">
             Từ nhà ở, văn phòng đến showroom – chúng tôi đã thực hiện đa dạng
-            loại hình công trình trên toàn TP.HCM.
+            loại hình công trình trên toàn Hà Nội.
           </p>
         </div>
 
         {/* Project grid */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
-            <div
+            <Link
               key={project.label}
-              className={`relative bg-gradient-to-br ${project.bg} group aspect-[4/3] cursor-pointer overflow-hidden rounded-2xl`}
+              href={`/san-pham/${project.slug}`}
+              className={`relative bg-gradient-to-br ${project.bg} group aspect-[4/3] cursor-pointer overflow-hidden rounded-2xl transition-transform duration-300 md:hover:scale-[1.02]`}
             >
               {/* Decorative glass pane illustration */}
               <div className="absolute inset-0 flex items-center justify-center opacity-20">
@@ -117,14 +126,14 @@ const Projects = () => {
                   📍 {project.location}
                 </p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 
         {/* CTA */}
         <div className="mt-10 text-center">
           <a
-            href="tel:0901234567"
+            href="tel:0987654321"
             id="projects-cta"
             className="inline-flex items-center space-x-2 rounded-xl border border-primary-500 px-6 py-3 font-semibold text-primary-400 transition-colors hover:bg-primary-500 hover:text-white"
           >

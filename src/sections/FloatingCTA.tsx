@@ -1,8 +1,8 @@
 const FloatingCTA = () => (
-  <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end space-y-3 md:hidden">
+  <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end space-y-3">
     {/* Zalo/Chat bubble */}
     <a
-      href="https://zalo.me/0901234567"
+      href="https://zalo.me/0987654321"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat Zalo"
@@ -13,9 +13,9 @@ const FloatingCTA = () => (
 
     {/* Call button */}
     <a
-      href="tel:0901234567"
+      href="tel:0987654321"
       id="floating-cta-call"
-      aria-label="Gọi ngay 0901234567"
+      aria-label="Gọi ngay 0987654321"
       className="flex animate-pulse-slow items-center space-x-2 rounded-full bg-red-600 py-3 pl-4 pr-5 text-white shadow-xl transition-all hover:scale-105 hover:bg-red-500 hover:shadow-red-500/50 active:scale-95"
     >
       <svg className="size-5 shrink-0" fill="currentColor" viewBox="0 0 20 20">

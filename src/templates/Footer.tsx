@@ -22,16 +22,16 @@ const Footer = () => (
             </div>
             <div>
               <div className="text-lg font-bold text-white">
-                Nhôm Kính Gia Phát
+                Nhôm Kính Template
               </div>
               <div className="text-xs text-silver-500">
-                Xingfa Chính Hãng – TP.HCM
+                Xingfa Chính Hãng – Hà Nội
               </div>
             </div>
           </div>
           <p className="text-sm leading-relaxed text-silver-500">
             Chuyên thi công cửa nhôm kính Xingfa, vách kính cường lực, lan can
-            kính, cửa kính tự động tại TP.HCM. 10+ năm kinh nghiệm, 500+ công
+            kính, cửa kính tự động tại Hà Nội. 10+ năm kinh nghiệm, 500+ công
             trình hoàn thành.
           </p>
         </div>
@@ -69,10 +69,10 @@ const Footer = () => (
               <span>
                 Hotline:{' '}
                 <a
-                  href="tel:0901234567"
+                  href="tel:0987654321"
                   className="font-bold text-white hover:text-primary-400"
                 >
-                  0901.234.567
+                  0987.654.321
                 </a>
               </span>
             </li>
@@ -82,17 +82,17 @@ const Footer = () => (
             </li>
             <li className="flex items-start space-x-2">
               <span>📍</span>
-              <span>TP. Hồ Chí Minh & các tỉnh lân cận</span>
+              <span>Hà Nội & các tỉnh lân cận</span>
             </li>
             <li className="flex items-start space-x-2">
               <span>💬</span>
               <a
-                href="https://facebook.com/nhomkinhgiaphat"
+                href="https://facebook.com/nhomkinhtemplate"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-primary-400"
               >
-                facebook.com/nhomkinhgiaphat
+                facebook.com/nhomkinhtemplate
               </a>
             </li>
           </ul>
@@ -101,11 +101,11 @@ const Footer = () => (
 
       <div className="text-silver-600 flex flex-col items-center justify-between gap-3 border-t border-dark-700 pt-6 text-xs sm:flex-row">
         <span>
-          © {new Date().getFullYear()} Nhôm Kính Gia Phát. Bảo lưu mọi quyền.
+          © {new Date().getFullYear()} Nhôm Kính Template. Bảo lưu mọi quyền.
         </span>
         <span>
-          Từ khóa: cửa nhôm kính TP.HCM · nhôm kính Xingfa · vách kính cường lực
-          · thi công kính TP.HCM
+          Từ khóa: cửa nhôm kính Hà Nội · nhôm kính Xingfa · vách kính cường lực
+          · thi công kính Hà Nội
         </span>
       </div>
     </div>
